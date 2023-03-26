@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+     <link rel="stylesheet" href="./template/StyleSheet.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        tr,td{
+            border:1px solid #D8D8D8;
+            padding:5px;
+            
+        }
+        tr{
+            box-shadow: #6E6E6E 0px 0px 1px 2px inset;
+        }
+        </style>
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+        
+          
+             <div class="container">
+        <div class="header">
+            <h1>Khổng Văn Tuyên.2019605268</h1>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Porfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="content-inner">
+               <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+         
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar-inner">
+                <h2>About Me</h2>
+
+                <img class="img-resize" src="./template/b11.jpg" />
+                <h2>Danh mục</h2>
+                <ul>
+                    <li><a href="HienThiDS.aspx">Danh sách tất cả sinh viên </a></li>
+                        <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlDataSource1">
+                            <ItemTemplate>
+                            <li>
+                                <a href='ChiTiet.aspx?malop=<%#Eval("malop") %> <%#Eval("tenlop") %>'> </a>
+                            </li>
+                        </ItemTemplate>
+                        </asp:Repeater>
+                        <asp:SqlDataSource ID="SqlDataSource1" runat="server"
+                            ConnectionString="<%$ ConnectionStrings:truonghocdb2ConnectionString %>"
+                            DeleteCommand="DELETE FROM [lophoc] WHERE [malop] = @malop"
+                            InsertCommand="INSERT INTO [lophoc] ([tenlop], [giangvien]) VALUES (@tenlop, @giangvien)" 
+                            SelectCommand="SELECT * FROM [lophoc]" 
+                            UpdateCommand="UPDATE [lophoc] SET [tenlop] = @tenlop, [giangvien] = @giangvien WHERE [malop] = @malop">
+                           
+                        </asp:SqlDataSource>                                         
+                </ul>
+                <h2>Lưu trữ  </h2>       
+                    <ul>
+                    <li><a href="#">Nội dung 1</a></li>
+                    <li><a href="#">Nội dung 2</a></li>
+               
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; Khổng Văn Tuyên.2019605268.HTTT2-K14</p>
+        </div>
+    
+        </div>
+    </form>
+</body>
+</html>

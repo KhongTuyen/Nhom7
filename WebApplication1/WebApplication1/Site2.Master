@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="WebApplication1.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <style>
+        tr,td{
+            border:1px solid #D8D8D8;
+            padding:20px;
+            
+        }
+        tr{
+            box-shadow: #6E6E6E 0px 0px 1px 2px inset;
+        }
+    </style>
+     <link rel="stylesheet" href="./template/StyleSheet.css" />
+</head>
+
+   <body>
+    <div class="container">
+        <div class="header">
+            <h1>HaUI-FICT</h1>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Porfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="content">
+           <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar-inner">
+                <h2>About Me</h2>
+
+                <img class="img-resize" src="./template/a20.jpg" />
+                <h2>Danh mục</h2>
+                <ul>
+                     <li><a href="trangchuv2.aspx">Xem danh sach sinh viên </a></li>
+                    <li><a href="addv2.aspx">Thêm sinh viên  </a></li>
+                    <li><a href="Xoav2.aspx">Xóa sinh viên </a></li>
+                    <li><a href="Suav2.aspx">Sửa sinh viên </a></li>
+                  
+                     
+                </ul>
+                <h2>Lưu trữ</h2>
+                <ul>
+                    <li><a href="#">Nội dung 1</a></li>
+                    <li><a href="#">Nội dung 2</a></li>
+               
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; Fictional Company</p>
+        </div>
+    </div>
+</body>
+
+</html>

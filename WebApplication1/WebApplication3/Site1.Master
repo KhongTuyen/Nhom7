@@ -1,0 +1,105 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication3.Site1" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        div {
+            color: black;
+        }
+
+        tr, td {
+            border: 1px solid #F08080;
+            padding: 5px;
+        }
+
+        tr {
+            box-shadow: #6E6E6E 0px 0px 1px 2px inset;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="page">
+            <div id="header">
+                <div style="margin-top: 60px; font-family: Arial; color: black; font-weight: bold; font-size: 17px">
+
+                    <!-- Đây là họ tên + mã sinh viên  -->
+                    BUI THI HA _ 2019605085
+
+                </div>
+                <ul>
+                    <li class="current">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="tips.html">Make-up Tips</a>
+                    </li>
+                    <li>
+                        <a href="links.html">External Links</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="body">
+                <div id="content_left">
+
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+
+                </div>
+                <div id="sidebar">
+                    <div>
+                        <div>
+                            <h3>Archives</h3>
+                            <ul>
+                                <li>
+                                    <a href="">Danh mục</a>
+                                    <ul>
+                                        <!-- Repeater -->
+                                        <li>
+                                            <a href="WebForm1.aspx">Danh sách sinh viên </a>
+                                        </li>
+
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">Bảo trì</a>
+                                    <ul>
+                                        <!-- thêm,sủa,xóa -->
+                                        <li>
+                                            <a href="">Thêm</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Sửa</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Xóa</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div id="footer">
+                <p style="font-size: 20px; color: black">&copy; Copyright BUI THI HA _ BAI KIEM TRA 2</p>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

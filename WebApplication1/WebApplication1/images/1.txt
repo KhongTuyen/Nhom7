@@ -1,0 +1,4 @@
+ctrl R hien thi toa do 
+ctrl + - view to nho 
+hinh kinh lup la view to .
+alt thu nho 
