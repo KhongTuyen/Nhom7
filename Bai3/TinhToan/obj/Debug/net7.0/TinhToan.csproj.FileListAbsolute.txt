@@ -1,0 +1,15 @@
+D:\C#\Bai3\TinhToan\bin\Debug\net7.0\TinhToan.exe
+D:\C#\Bai3\TinhToan\bin\Debug\net7.0\TinhToan.deps.json
+D:\C#\Bai3\TinhToan\bin\Debug\net7.0\TinhToan.runtimeconfig.json
+D:\C#\Bai3\TinhToan\bin\Debug\net7.0\TinhToan.dll
+D:\C#\Bai3\TinhToan\bin\Debug\net7.0\TinhToan.pdb
+D:\C#\Bai3\TinhToan\obj\Debug\net7.0\TinhToan.csproj.AssemblyReference.cache
+D:\C#\Bai3\TinhToan\obj\Debug\net7.0\TinhToan.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Bai3\TinhToan\obj\Debug\net7.0\TinhToan.AssemblyInfoInputs.cache
+D:\C#\Bai3\TinhToan\obj\Debug\net7.0\TinhToan.AssemblyInfo.cs
+D:\C#\Bai3\TinhToan\obj\Debug\net7.0\TinhToan.csproj.CoreCompileInputs.cache
+D:\C#\Bai3\TinhToan\obj\Debug\net7.0\TinhToan.dll
+D:\C#\Bai3\TinhToan\obj\Debug\net7.0\refint\TinhToan.dll
+D:\C#\Bai3\TinhToan\obj\Debug\net7.0\TinhToan.pdb
+D:\C#\Bai3\TinhToan\obj\Debug\net7.0\TinhToan.genruntimeconfig.cache
+D:\C#\Bai3\TinhToan\obj\Debug\net7.0\ref\TinhToan.dll
