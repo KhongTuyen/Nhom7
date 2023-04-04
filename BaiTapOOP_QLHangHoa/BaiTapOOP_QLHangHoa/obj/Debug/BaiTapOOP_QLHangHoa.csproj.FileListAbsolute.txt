@@ -1,0 +1,8 @@
+D:\C#\BaiTapOOP_QLHangHoa\BaiTapOOP_QLHangHoa\bin\Debug\BaiTapOOP_QLHangHoa.exe.config
+D:\C#\BaiTapOOP_QLHangHoa\BaiTapOOP_QLHangHoa\bin\Debug\BaiTapOOP_QLHangHoa.exe
+D:\C#\BaiTapOOP_QLHangHoa\BaiTapOOP_QLHangHoa\bin\Debug\BaiTapOOP_QLHangHoa.pdb
+D:\C#\BaiTapOOP_QLHangHoa\BaiTapOOP_QLHangHoa\obj\Debug\BaiTapOOP_QLHangHoa.csproj.AssemblyReference.cache
+D:\C#\BaiTapOOP_QLHangHoa\BaiTapOOP_QLHangHoa\obj\Debug\BaiTapOOP_QLHangHoa.csproj.SuggestedBindingRedirects.cache
+D:\C#\BaiTapOOP_QLHangHoa\BaiTapOOP_QLHangHoa\obj\Debug\BaiTapOOP_QLHangHoa.csproj.CoreCompileInputs.cache
+D:\C#\BaiTapOOP_QLHangHoa\BaiTapOOP_QLHangHoa\obj\Debug\BaiTapOOP_QLHangHoa.exe
+D:\C#\BaiTapOOP_QLHangHoa\BaiTapOOP_QLHangHoa\obj\Debug\BaiTapOOP_QLHangHoa.pdb

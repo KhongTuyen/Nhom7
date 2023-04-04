@@ -1,0 +1,8 @@
+D:\C#\BTTH_XayDungCungHoangDao\BTTH_XayDungCungHoangDao\bin\Debug\BTTH_XayDungCungHoangDao.exe.config
+D:\C#\BTTH_XayDungCungHoangDao\BTTH_XayDungCungHoangDao\bin\Debug\BTTH_XayDungCungHoangDao.exe
+D:\C#\BTTH_XayDungCungHoangDao\BTTH_XayDungCungHoangDao\bin\Debug\BTTH_XayDungCungHoangDao.pdb
+D:\C#\BTTH_XayDungCungHoangDao\BTTH_XayDungCungHoangDao\obj\Debug\BTTH_XayDungCungHoangDao.csproj.AssemblyReference.cache
+D:\C#\BTTH_XayDungCungHoangDao\BTTH_XayDungCungHoangDao\obj\Debug\BTTH_XayDungCungHoangDao.csproj.SuggestedBindingRedirects.cache
+D:\C#\BTTH_XayDungCungHoangDao\BTTH_XayDungCungHoangDao\obj\Debug\BTTH_XayDungCungHoangDao.csproj.CoreCompileInputs.cache
+D:\C#\BTTH_XayDungCungHoangDao\BTTH_XayDungCungHoangDao\obj\Debug\BTTH_XayDungCungHoangDao.exe
+D:\C#\BTTH_XayDungCungHoangDao\BTTH_XayDungCungHoangDao\obj\Debug\BTTH_XayDungCungHoangDao.pdb
