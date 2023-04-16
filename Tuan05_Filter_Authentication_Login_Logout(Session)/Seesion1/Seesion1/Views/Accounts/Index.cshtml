@@ -1,0 +1,39 @@
+﻿
+@{ 
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<table id="accountTable" class="display">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Full Name</th>
+            <th>Role</th>          
+                
+        </tr>
+    </thead>
+</table>
+<link rel="stylesheet"  href="//cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"/>
+
+@section scripts{
+    <script src="//cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function () {
+          $("#accountTable").DataTable({
+                "ajax": {
+                    "url": "/Accounts/GetList",
+                    "type": "GET",
+                    "datatype":"json"
+                },
+                "columns": [
+                    {"data":"id"},  
+                    {"data":"name"},
+                    { "data": "rol" }
+                    
+                ]
+            })
+        })
+
+
+    </script>
+    }

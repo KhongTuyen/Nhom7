@@ -1,0 +1,52 @@
+﻿
+@model IEnumerable<Seesion1.Models.Account>
+
+@{
+
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+
+
+<h2 style="text-align:center">ADMIN</h2>
+<table class="table">
+    <tr>
+        <th>
+            Username
+        </th>
+        <th>
+            Password
+        </th>
+        <th>
+            Full Name
+        </th>
+        <th>
+            Role
+        </th>
+        <th> <a href="/AccountsAdmin/Create/" role="button"><i class="fas fa-plus"></i></a></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.username)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rol)
+            </td>
+            <td>
+
+                <a class="buttons" href="/Accounts/Edit/@item.id.Trim()" role="button"><i class="fas fa-edit"></i></a>
+                <a class="buttons" href="/Accounts/Delete/@item.id" role="button"><i class="fas fa-trash"></i></a>
+            </td>
+        </tr>
+    }
+
+</table>
